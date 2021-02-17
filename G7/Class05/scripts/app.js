@@ -51,7 +51,7 @@
 //         case '+':
 //             return (number1, number2) => number1 + number2;
 //             break;
-//         case '-': 
+//         case '-':
 //             return (number1, number2) => number1 - number2;
 //             break;
 //         default:
@@ -114,26 +114,26 @@
 // console.log(mappedNumbers)
 
 // [filter]
-// const numbers = [4, 90, 78, 34, 70, 23, 1, 63, 15];
-// let filteredNumbers = [];
+const numbers = [4, 90, 78, 34, 70, 23, 1, 63, 15];
+let filteredNumbers = [];
 
-// old
-// for (const number of numbers) {
-//     if (number > 20) {
-//         filteredNumbers.push(number)
-//     }
-// }
+// old;
+for (const number of numbers) {
+  if (number > 20) {
+    filteredNumbers.push(number);
+  }
+}
 
-// console.log(filteredNumbers)
+console.log(filteredNumbers);
 
 // new
 // Returns: a NEW array with the items of the array that pass the check
-// filteredNumbers = numbers.filter(number => number > 20)
+// filteredNumbers = numbers.filter((number) => number > 20=);
 
-// filteredNumbers = numbers.filter(number => {
-//     console.log(number)
-//     return number > 20;
-// })
+// filteredNumbers = numbers.filter((number) => {
+//   console.log(number);
+//   return number > 20;
+// });
 
 // console.log(filteredNumbers);
 
@@ -183,24 +183,24 @@ const unsortedNumbers = [4, 124, 90, 78, 21, 34, 70, 11, 23, 1, 63, 15];
 // new
 
 // let sortedNumbers = unsortedNumbers.sort();
-// console.log(sortedNumbers)
+// console.log(sortedNumbers);
 
 // ascending
-// let sortedNumbers = unsortedNumbers.sort((a, b) => a - b)
-// console.log(sortedNumbers)
+// let sortedNumbers = unsortedNumbers.sort((a, b) => a - b);
+// console.log(sortedNumbers);
 
 // descending
-let sortedNumbers = unsortedNumbers.sort((a, b) => b - a)
-console.log('SORTED', sortedNumbers)
-console.log('UNSORTED', unsortedNumbers);
+let sortedNumbers = unsortedNumbers.sort((a, b) => b - a);
+console.log("SORTED", sortedNumbers);
+console.log("UNSORTED", unsortedNumbers);
 
-// function sorting(a, b) {
-//     // return 1 
-//     // return 0
-//     // return -1
-// }
+function sorting(a, b) {
+  // return 1
+  // return 0
+  // return -1
+}
 
-// toLocalCompare()
+toLocalCompare();
 
 // Pass by value
 // let name1 = 'Ivan';
